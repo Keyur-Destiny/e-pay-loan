@@ -311,13 +311,13 @@
                                                     <span class="text-center"><a href="./loan_application.php" class="custom-link"> Applications For <br> Funding </font></a></span></div>  
                                                     <div class="col-md-6 card"><span class="text-center"><i class="flaticon-calendar-with-a-clock-time-tools icon-md-2x"></i></span>
                                                     <span class="text-center">0</span>
-                                                    <span class="text-center" ><a href="./loan_application.php" class="custom-link"> New Loan Application </font></a></span></div>
+                                                    <span class="text-center" ><a href="./new_application.php" class="custom-link"> New Loan Application </font></a></span></div>
                                                     <div class="col-md-6 card"><span class="text-center"><i class="flaticon-calendar-with-a-clock-time-tools icon-md-2x"></i></span>
                                                     <span class="text-center">0</span>
-                                                    <span class="text-center"><a href="./loan_application.php" class="custom-link"> New Customer </font></a></span></div>
+                                                    <span class="text-center"><a href="./new_customer.php" class="custom-link"> New Customer </font></a></span></div>
                                                     <div class="col-md-6 card"><span class="text-center"><i class="flaticon-calendar-with-a-clock-time-tools icon-md-2x"></i></span>
                                                     <span class="text-center">0</span>
-                                                    <span class="text-center"><a href="./loan_application.php" class="custom-link"> New Usere </font></a></span></div>
+                                                    <span class="text-center"><a href="./new_user.php" class="custom-link"> New User </font></a></span></div>
                                                 </div>
                                             </div>
                                         </div>

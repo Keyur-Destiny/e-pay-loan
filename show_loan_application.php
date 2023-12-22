@@ -69,53 +69,16 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!--end::Header-->
 
                 <!--begin::Content-->
-                <div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
+                <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
                     <!--begin::Subheader-->
-                    <div class="subheader py-2 py-lg-4  subheader-solid " id="kt_subheader">
-                        <div class=" container-fluid  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
-                            <!--begin::Info-->
-                            <div class="d-flex align-items-center flex-wrap mr-2">
-
-                                <!--begin::Page Title-->
-                                <h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">
-                                    SHOW LOAN APPLICATION 20 </h5>
-                                <!--end::Page Title-->
-
-                                <!--begin::Actions-->
-
-
-                                <!--end::Actions-->
-                            </div>
-                            <!--end::Info-->
-
-                            <!--begin::Toolbar-->
-                            <div class="d-flex align-items-center">
-
-                                <!--end::Actions-->
-
-                                <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
-                                    <li class="breadcrumb-item">
-                                        <a href="" class="text-muted">
-                                            Loan Applications </a>
-                                    </li>
-                                    <li class="breadcrumb-item">
-                                        <a href="" class="text-muted">
-                                            Show Loan Application </a>
-                                    </li>
-                                </ul>
-
-                                <!--end::Dropdowns-->
-                            </div>
-                            <!--end::Toolbar-->
-                        </div>
-                    </div>
+                    <?php include('subheader.php') ?>
                     <!--end::Subheader-->
 
                     <!--begin::Entry-->
                     <div>
 
-                        <div class="row">
-                            <div class="col-xl-4">
+                        <div class="container-fluid d-flex align-items-stretch justify-content-between">
+                            <div>
                                 <!--begin::Tiles Widget 9-->
                                 <div class="card card-custom bgi-no-repeat bgi-size-cover gutter-b" style="height: 370px; background-color:#5969ca;">
                                     <!--begin::Body-->
@@ -159,7 +122,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </div>
                                 <!--end::Tiles Widget 9-->
                             </div>
-                            <div class="col-xl-8">
+                            <div>
                                 <!--begin::Mixed Widget 10-->
                                 <div class="card card-custom bg-white">
                                     <div class="card-header ribbon ribbon-right">
@@ -434,29 +397,154 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                     </div>
                   
-                <div class="row">
-                    <div class="col-xl-4">
+                <div class="container-fluid d-flex align-items-stretch justify-content-between">
+                    <div>
                         <!--begin::Tiles Widget 9-->
-                        <div class="card card-custom bgi-no-repeat bgi-size-cover gutter-b" style="height: 450px; background-color:#5969ca;">
+                        <div class="card card-custom bgi-no-repeat bgi-size-cover gutter-b" style="height: 455px; width:222px;background-color:#5969ca;">
                             <!--begin::Body-->
                             <div class="card-body d-flex flex-column">
                                 <!--begin::Title-->
-                                <span class="text-left font-size-h2 text-white">Summary</span>
+                                <span class="font-size-h2 text-white"><a href="./user_page.php" class="text-white"> Summary </a></span>
                                 <div class="separator separator-solid"></div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="text-center font-size-base text-white">ID:</span>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <span class="text-center font-size-base text-white">2</span>
+
+                                            </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                            Date Applied:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                            09/14/2023
+                                        </span>
+                                        <br />
+                                        <span class="text-center font-size-base text-white">
+                                            00:00:00
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                            Request Amount:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                            $1500
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Loan Term:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        10 Day
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Interest Rate:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        754%
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Installment Amount:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        $1000.0
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Decision Rule Reasons:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Cancel Reason:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Doc Signed:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+
+
+
+
+                                <!-- <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             ID:
                                         </span>
                                     </div>
                                     <div>
-                                        <span class="text-center font-size-h6 text-white">
+                                        <span class="text-left font-size-h6 text-white">
                                             20
                                         </span>
                                     </div>
 
-                                </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                </div> -->
+                                <!-- <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Date Applied:
@@ -473,7 +561,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Request Amount:
@@ -488,7 +576,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Loan Term:
@@ -503,7 +591,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Interest Rate:
@@ -518,7 +606,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Installment Amount:
@@ -533,7 +621,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Decision Rule Reasons:
@@ -546,8 +634,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     </div>
 
-                                </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                </div> -->
+                                <!-- <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Cancel Reason:
@@ -561,7 +649,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
                                             Doc Signed:
@@ -574,7 +662,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     </div>
 
-                                </div>
+                                </div> -->
 
 
                                 <br />
@@ -585,7 +673,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                         <!--end::Tiles Widget 9-->
                     </div>
-                    <div class="col-xl-8">
+                    <div>
                         <div class="example-code">
                             <ul class="example-nav nav nav-tabs nav-tabs-line nav-tabs-line-2x font-size-h6 nav-tabs-primary" id="myTab" role="tablist">
                                 <li class="nav-item">
@@ -1023,7 +1111,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="tab-pane" id="tab_documents" role="tabpanel">
                                     <div class="uppy" id="kt_uppy_3">
                                         <div class="uppy-drag">
-                                            <button type="button" class="uppy-Root uppy-u-reset uppy-DragDrop-container   uppy-DragDrop--isDragDropSupported" style="width: 100%; height: 100%">
+                                            <button type="button" class="uppy-Root uppy-u-reset uppy-DragDrop-container   uppy-DragDrop--isDragDropSupported" style="width: 787px;">
                                                 <input class="uppy-DragDrop-input" type="file" hidden="" name="files[]" multiple="" accept="image/*,video/*" />
                                                 <div class="uppy-DragDrop-inner">
                                                     <svg aria-hidden="true" focusable="false" class="uppy-c-icon uppy-DragDrop-arrow" width="16" height="16" viewBox="0 0 16 16">
@@ -1052,8 +1140,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </div>
 
                                 <div class="tab-pane" id="tab_bank_details" role="tabpanel">
-                                    <div class="col-sm-8">
-                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 700px;">
+                                    <div>
+                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 787px;">
                                             <thead>
                                                 <tr role="row">
                                                     <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 17px;" aria-sort="ascending" aria-label="Record ID: activate to sort column descending">ID</th>
@@ -1156,14 +1244,14 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                 <div class="tab-pane" id="tab_insights_detail" role="tabpanel">
                                     <div class="col-sm-8">
-                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 700px;">
+                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 787px;">
                                         </table>
                                     </div>
                                 </div>
 
                                 <div class="tab-pane" id="tab_payment_detail" role="tabpanel">
                                     <div class="col-sm-8">
-                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 700px;">
+                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 787px;">
                                             <thead>
                                                 <tr role="row">
                                                     <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 17px;" aria-sort="ascending" aria-label="#: activate to sort column descending">#</th>
@@ -1231,7 +1319,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <div id="kt_datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="kt_datatable"></label></div>
                                             </div>
                                         </div>
-                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 700px;">
+                                        <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 787px;">
                                             <thead>
                                                 <tr role="row">
                                                     <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 17px;" aria-sort="ascending" aria-label="User: activate to sort column descending">user</th>
@@ -1371,103 +1459,272 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-4">
-                        <div class="card card-custom bgi-no-repeat bgi-size-cover gutter-b" style="height: 310px; background-color:#5969ca;">
+                <div class="container-fluid d-flex align-items-stretch justify-content-between">
+                    <div>
+                        <!--begin::Tiles Widget 9-->
+                        <div class="card card-custom bgi-no-repeat bgi-size-cover gutter-b" style="height: 455px; width:222px;background-color:#5969ca;">
                             <!--begin::Body-->
                             <div class="card-body d-flex flex-column">
                                 <!--begin::Title-->
-                                <span class="text-left font-size-h2 text-white">Customer History</span>
+                                <span class="font-size-h2 text-white"><a href="./user_page.php" class="text-white"> Summary </a></span>
                                 <div class="separator separator-solid"></div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="row">
+                                            <div class="col-md-6">
+                                                <span class="text-center font-size-base text-white">ID:</span>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <span class="text-center font-size-base text-white">2</span>
+
+                                            </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                            Date Applied:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                            09/14/2023
+                                        </span>
+                                        <br />
+                                        <span class="text-center font-size-base text-white">
+                                            00:00:00
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                            Request Amount:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                            $1500
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Loan Term:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        10 Day
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Interest Rate:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        754%
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Installment Amount:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        $1000.0
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Decision Rule Reasons:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Cancel Reason:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-6">
+                                        <span class="text-left font-size-base text-white">
+                                        Doc Signed:
+                                        </span>
+                                    </div>
+                                    <div class="col-6">
+                                        <span class="text-center font-size-base text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+                                </div>
+
+
+
+
+                                <!-- <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
-                                            Previous loans:
+                                            ID:
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="text-left font-size-h6 text-white">
+                                            20
+                                        </span>
+                                    </div>
+
+                                </div> -->
+                                <!-- <div class="card-body d-flex flex-row">
+                                    <div>
+                                        <span class="text-left font-size-h6 text-white">
+                                            Date Applied:
                                         </span>
                                     </div>
                                     <div>
                                         <span class="text-center font-size-h6 text-white">
-                                            2
+                                            09/14/2023
+                                        </span>
+                                        <br />
+                                        <span class="text-center font-size-h6 text-white">
+                                            00:00:00
                                         </span>
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
-                                            Current loans:
+                                            Request Amount:
                                         </span>
                                     </div>
                                     <div>
                                         <span class="text-center font-size-h6 text-white">
-                                            1
-                                        </span>
-
-                                    </div>
-
-                                </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
-                                    <div>
-                                        <span class="text-left font-size-h6 text-white">
-                                            Previous Applications:
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <span class="text-center font-size-h6 text-white">
-                                            6
+                                            $1500
                                         </span>
                                         <br />
 
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
-                                            Outstanding Balance:
+                                            Loan Term:
                                         </span>
                                     </div>
                                     <div>
                                         <span class="text-center font-size-h6 text-white">
-                                            $0
+                                            10 Day
                                         </span>
                                         <br />
 
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
-                                            Late Payments:
+                                            Interest Rate:
                                         </span>
                                     </div>
                                     <div>
                                         <span class="text-center font-size-h6 text-white">
-                                            0
+                                            754%
                                         </span>
                                         <br />
 
                                     </div>
 
                                 </div>
-                                <div class="d-flex justify-content-md-between mt-2 mb-2">
+                                <div class="card-body d-flex flex-row">
                                     <div>
                                         <span class="text-left font-size-h6 text-white">
-                                            Days Past Due:
+                                            Installment Amount:
                                         </span>
                                     </div>
                                     <div>
                                         <span class="text-center font-size-h6 text-white">
-                                            0
+                                            $1000.0
                                         </span>
                                         <br />
 
                                     </div>
 
                                 </div>
+                                <div class="card-body d-flex flex-row">
+                                    <div>
+                                        <span class="text-left font-size-h6 text-white">
+                                            Decision Rule Reasons:
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="text-center font-size-h6 text-white">
+                                        </span>
+                                        <br />
 
+                                    </div>
 
+                                </div> -->
+                                <!-- <div class="card-body d-flex flex-row">
+                                    <div>
+                                        <span class="text-left font-size-h6 text-white">
+                                            Cancel Reason:
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="text-center font-size-h6 text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+
+                                </div>
+                                <div class="card-body d-flex flex-row">
+                                    <div>
+                                        <span class="text-left font-size-h6 text-white">
+                                            Doc Signed:
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span class="text-center font-size-h6 text-white">
+                                        </span>
+                                        <br />
+
+                                    </div>
+
+                                </div> -->
 
 
                                 <br />
@@ -1476,8 +1733,9 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                             <!--end::Body-->
                         </div>
-
+                        <!--end::Tiles Widget 9-->
                     </div>
+                   
                 </div>
 
 

@@ -34,7 +34,6 @@
 }
 
 body {
-  padding: 5%;
   background-color: #F5F5F5;
 }
 
@@ -365,4 +364,9 @@ body {
 
 .clickable {
   cursor: pointer;
+}
+
+.form-btn {
+  padding: 4px 1rem;
+  font-size: 12px;
 }
