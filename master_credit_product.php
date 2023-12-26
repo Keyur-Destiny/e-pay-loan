@@ -97,11 +97,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 100%;">
                                         <thead>
                                             <tr role="row">
-                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Record ID: activate to sort column descending" style="width:15%;">Name</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Order ID: activate to sort column ascending" style="width:20%;">Email</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Routing: activate to sort column ascending" style="width:15%;">Info</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:15%;">Assing To</th>
-                                                <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width:35%;">Actions</th>
+                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Record ID: activate to sort column descending" style="width:14%;">Name</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Order ID: activate to sort column ascending" style="width:12%;">Allowed loan amount</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Routing: activate to sort column ascending" style="width:12%;">Allowed loan term</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:12%;">Loan type</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:12%;">Repayment period</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:12%;">Provinces</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:10%;">Active</th>
+                                                <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width:16%;">Actions</th>
                                             </tr>
                                         </thead>
 
@@ -112,9 +115,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <td></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-danger btn-sm  text-white">Inactive</a>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td><a href="./master_show_credit_product.php" class="btn btn-primary btn-sm text-white">Show</a>
+                                                    <a href="./master_edit_credit_product.php" class="btn btn-primary btn-sm text-white">Edit</a>
                                                 </td>
                                             </tr>
                                             <tr class="even">
@@ -122,10 +127,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <td></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-primary btn-sm text-white">Send Reset Password</a>
-                                                    <a href="" class="btn btn-success btn-sm text-white">Active</a>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td><a href="./master_show_credit_product.php" class="btn btn-primary btn-sm text-white">Show</a>
+                                                    <a href="./master_edit_credit_product.php" class="btn btn-primary btn-sm text-white">Edit</a>
                                                 </td>
                                             </tr>
                                         </tbody>

@@ -97,11 +97,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 100%;">
                                         <thead>
                                             <tr role="row">
-                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Record ID: activate to sort column descending" style="width:15%;">Name</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Order ID: activate to sort column ascending" style="width:20%;">Email</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Routing: activate to sort column ascending" style="width:15%;">Info</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:15%;">Assing To</th>
-                                                <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width:35%;">Actions</th>
+                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Record ID: activate to sort column descending" style="width:25%;">Name</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Order ID: activate to sort column ascending" style="width:25%;">Alias</th>
+                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Routing: activate to sort column ascending" style="width:35%;">Description</th>
+                                                <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width:15%;">Actions</th>
                                             </tr>
                                         </thead>
 
@@ -111,26 +110,41 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <td class="dtr-control sorting_1" tabindex="0"></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-danger btn-sm  text-white">Inactive</a>
+                                                <td>
+                                                    <a href="./master_edit_lead_souce.php" class="btn btn-primary btn-sm text-white">Edit</a>
                                                 </td>
                                             </tr>
                                             <tr class="even">
                                                 <td class="dtr-control sorting_1" tabindex="0"></td>
                                                 <td></td>
                                                 <td></td>
-                                                <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-primary btn-sm text-white">Send Reset Password</a>
-                                                    <a href="" class="btn btn-success btn-sm text-white">Active</a>
+                                                <td>
+                                                    <a href="./master_edit_lead_souce.php" class="btn btn-primary btn-sm text-white">Edit</a>
                                                 </td>
                                             </tr>
                                         </tbody>
 
                                     </table>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-8">
+                                        <div class="dataTables_info" id="kt_datatable_info" role="status" aria-live="polite"><span class="text-muted">Showing 1 to 10 of 50 entries</span></div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="dataTables_paginate paging_full_numbers" id="kt_datatable_paginate">
+                                            <ul class="pagination">
+                                                <li class="paginate_button page-item first disabled" id="kt_datatable_first"><a href="#" aria-controls="kt_datatable" data-dt-idx="0" tabindex="0" class="page-link"><i class="ki ki-double-arrow-back"></i></a></li>
+                                                <li class="paginate_button page-item previous disabled" id="kt_datatable_previous"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link"><i class="ki ki-arrow-back"></i></a></li>
+                                                <li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable" data-dt-idx="2" tabindex="0" class="page-link">1</a></li>
+                                                <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="3" tabindex="0" class="page-link">2</a></li>
+                                                <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="4" tabindex="0" class="page-link">3</a></li>
+                                                <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="5" tabindex="0" class="page-link">4</a></li>
+                                                <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="6" tabindex="0" class="page-link">5</a></li>
+                                                <li class="paginate_button page-item next" id="kt_datatable_next"><a href="#" aria-controls="kt_datatable" data-dt-idx="7" tabindex="0" class="page-link"><i class="ki ki-arrow-next"></i></a></li>
+                                                <li class="paginate_button page-item last" id="kt_datatable_last"><a href="#" aria-controls="kt_datatable" data-dt-idx="8" tabindex="0" class="page-link"><i class="ki ki-double-arrow-next"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

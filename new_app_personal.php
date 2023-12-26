@@ -77,6 +77,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Entry-->
                     <div>
                     <div class="card card-custom">
+                        
                     
                         <!--begin::Form-->
                         <form class="form" action="./show_loan_application.php">

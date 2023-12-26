@@ -71,7 +71,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Signin-->
                     <div class="login-form login-signin">
                         <!--begin::Form-->
-                        <form class="form" action="dashboard.html" id="kt_login_signin_form">
+                        <form class="form" action="./ind" id="kt_login_signin_form">
                             <!--begin::Title-->
                             <div class="text-center pb-8">
                                 <h2 class="font-weight-bolder font-size-h2 font-size-h1-lg">Welcome Back
@@ -130,7 +130,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         class="btn font-weight-bolder font-size-h6 px-8 text-hover-primary py-4 my-3"
                                         style="background-color:#eab676;color:white;">Log In
                                 </button> -->
-                                <a href="custom/pages/login/dashboard.html"
+                                <a href="./index.php"
                                 class="btn btn-light font-weight-bolder font-size-h6 px-8 text-hover-warning py-4 my-3"
                                 style="background-color:#eab676;color:white;">
                                  Log In

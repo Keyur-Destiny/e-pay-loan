@@ -80,78 +80,263 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="container-fluid dashboard">
 
                             <div class="example-preview">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-9">
-                                        <div class="dataTables_length text-muted" id="kt_datatable_length"><label>Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm form-control form-control-sm">
-                                                    <option value="10">10</option>
-                                                    <option value="25">25</option>
-                                                    <option value="50">50</option>
-                                                    <option value="100">100</option>
-                                                </select> entries</label></div>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Name</label>
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="Name" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <div class="checkbox-list">
+                                                    <label class="checkbox checkbox-outline">
+                                                        <input type="checkbox" class="border-1" name="Checkboxes1" />
+                                                        <span></span>
+                                                        IBV Mandatory
+                                                    </label>
+                                                    <span class="switch switch-primary switch-sm">
+                                                        <label>
+                                                            <input type="checkbox" checked="checked" name="select" />
+                                                            <span></span>
+                                                        </label>
+                                                        Active
+                                                    </span>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-12 col-md-3">
-                                        <div id="kt_datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="kt_datatable"></label></div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Type</label>
+                                                <select class="form-control font-size-h6" id="exampleSelect1">
+                                                    <option>Payday loan</option>
+                                                    <option>Installment based</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Province</label>
+                                                <select class="form-control font-size-h6" id="exampleSelect1">
+                                                    <option>Ontario - ON</option>
+                                                    <option>British Columbia - BC</option>
+                                                    <option>British Columbia - BC</option>
+                                                    <option>Alberta - AB</option>
+                                                    <option>Manitoba - MB</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="mt-10">
-                                    <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 100%;">
-                                        <thead>
-                                            <tr role="row">
-                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Record ID: activate to sort column descending" style="width:15%;">Name</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Order ID: activate to sort column ascending" style="width:20%;">Email</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Routing: activate to sort column ascending" style="width:15%;">Info</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:15%;">Assing To</th>
-                                                <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width:35%;">Actions</th>
-                                            </tr>
-                                        </thead>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Loan Agreements</label>
+                                                <select class="form-control font-size-h6" id="loanAgreement">
+                                                    <option>Loan Agreement 1</option>
+                                                    <option>Loan Agreement 2</option>
+                                                </select>
+                                            </div>
+                                        </div>
 
-                                        <tbody class="font-size-lg">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Description</label>
+                                                <div>
+                                                    <textarea class="form-control border-1" rows="3" placeholder="Description"></textarea>
 
-                                            <tr class="odd">
-                                                <td class="dtr-control sorting_1" tabindex="0"></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-danger btn-sm  text-white">Inactive</a>
-                                                </td>
-                                            </tr>
-                                            <tr class="even">
-                                                <td class="dtr-control sorting_1" tabindex="0"></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-primary btn-sm text-white">Send Reset Password</a>
-                                                    <a href="" class="btn btn-success btn-sm text-white">Active</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                    </table>
-                                </div>
+
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Payment Period</label>
+                                                <select class="form-control font-size-h6" id="paymentPeriod">
+                                                    <option>Once Per Loan Term</option>
+                                                    <option>Bi-Weekly</option>
+                                                    <option>Weekly</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Late payment grace</label>
+                                                <input type="number" id="late_payment" class="form-control" placeholder="Late payment grace" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">APR Interest (%)</label>
+                                                <input type="number" id="late_payment" class="form-control" placeholder="APR" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Calculation basis</label>
+                                                <select class="form-control font-size-h6" id="calculationBasis">
+                                                    <option>Remaining Principal</option>
+                                                    <option>Remaining Principal</option>
+                                                    <option>Loan Amount</option>
+                                                    <option>Installment balance</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Min Amount</label>
+                                                <input type="number" id="min_amount" class="form-control" placeholder="Min Amount" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Max Amount</label>
+                                                <input type="number" id="max_amount" class="form-control" placeholder="Max Amount" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Min Term</label>
+                                                <input type="number" id="min_term" class="form-control" placeholder="Min Term" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Max Term</label>
+                                                <input type="number" id="max_term" class="form-control" placeholder="Max Term" />
+
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Type</label>
+                                                <select class="form-control font-size-h6" id="type">
+                                                    <option>Month</option>
+                                                    <option>Week</option>
+                                                    <option>Day</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col">
+                                        <label class="font-size-h6 col-form-label">Fees</label>
+                                        <select class="form-control font-size-h6" id="fees">
+                                            <option>NSF</option>
+                                            <option>Repayment Fee</option>
+                                            <option>Late fee 5%</option>
+                                            <option>Defer Fee</option>
+                                            <option>Administration Fee</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Schedule modification</label>
+                                                <div class="radio-list">
+
+                                                    <label class="radio">
+                                                        <input type="radio" name="radios1" />
+                                                        <span></span>
+                                                        No reduced interest. No further recalculations.
+                                                    </label>
+                                                    <label class="radio">
+                                                        <input type="radio" checked="checked" name="radios1" />
+                                                        <span></span>
+                                                        No reduced interest. Further installments are recalculated.
+
+                                                    </label>
+                                                    <label class="radio">
+                                                        <input type="radio" checked="checked" name="radios1" />
+                                                        <span></span>
+                                                        Reduced interest. Further installments are recalculated.
+
+                                                    </label>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Further installments recalculation mode</label>
+                                                <div class="radio-list">
+                                                    <label class="radio">
+                                                        <input type="radio" name="radios1" />
+                                                        <span></span>
+                                                        Keep Initial Equal Payment.
+                                                    </label>
+                                                    <label class="radio">
+                                                        <input type="radio" name="radios1" />
+                                                        <span></span>
+                                                        Recalculate Equal Payment with the new Remaining Principal.
+                                                    </label>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <div class="checkbox-list">
+                                                    <span class="switch switch-primary switch-sm">
+                                                        <label>
+                                                            <input type="checkbox" checked="checked" name="select" />
+                                                            <span></span>
+                                                        </label>
+                                                        Use grace period
+                                                    </span>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col mt-6">
+                                        <input type="submit" class="btn btn-primary" />
+                                    </div>
+                                </form>
                             </div>
+
+
+
+                            <!--begin::Footer-->
+                            <!--end::Footer-->
+                            <!--end::Wrapper-->
                         </div>
 
 
-                        <!--begin::Footer-->
-                        <!--end::Footer-->
-                        <!--end::Wrapper-->
+                        <!--end::Page-->
                     </div>
+                    <?php include('footer.php') ?>
 
 
-                    <!--end::Page-->
                 </div>
-                <?php include('footer.php') ?>
-
 
             </div>
 
         </div>
-
-    </div>
     </div>
     <!--end::Main-->
 

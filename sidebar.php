@@ -47,7 +47,7 @@
 
                             </li>
                             <li class="menu-item  menu-item-submenu">
-                                <a href="javascript:;" class="menu-link ">
+                                <a href="./service.php" class="menu-link ">
                                     <span class="svg-icon menu-icon">
                                         <!--begin::Svg Icon | path:assets/media/svg/icons/Shopping/Barcode-read.svg-->
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -140,8 +140,10 @@
                                                 <span class="menu-text">users</span>
                                             </a>
                                         </li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_lead_source.php"><span class="menu-text">Lead Source</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_credit_product.php"><span class="menu-text">Credit Products</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./company_settings.php"><span class="menu-text">Company Setting</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_integration.php"><span class="menu-text">Integration</span></a></li>
                                         <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
                                         <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
                                     </ul>

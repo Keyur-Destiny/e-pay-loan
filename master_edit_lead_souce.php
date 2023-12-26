@@ -80,58 +80,41 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="container-fluid dashboard">
 
                             <div class="example-preview">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-9">
-                                        <div class="dataTables_length text-muted" id="kt_datatable_length"><label>Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm form-control form-control-sm">
-                                                    <option value="10">10</option>
-                                                    <option value="25">25</option>
-                                                    <option value="50">50</option>
-                                                    <option value="100">100</option>
-                                                </select> entries</label></div>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h5 col-form-label">Name</label>
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="Name" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h5 col-form-label">Alias</label>
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="Alias" />
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
-                                    <div class="col-sm-12 col-md-3">
-                                        <div id="kt_datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="kt_datatable"></label></div>
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="form-group col">
+                                                <label class="font-size-h5 col-form-label">Description</label>
+                                                <div>
+                                                    <textarea class="form-control border-1" rows="3" placeholder="Description"></textarea>
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="mt-10">
-                                    <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline font-size-base" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 100%;">
-                                        <thead>
-                                            <tr role="row">
-                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Record ID: activate to sort column descending" style="width:15%;">Name</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Order ID: activate to sort column ascending" style="width:20%;">Email</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Routing: activate to sort column ascending" style="width:15%;">Info</th>
-                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" aria-label="Ship City: activate to sort column ascending" style="width:15%;">Assing To</th>
-                                                <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Actions" style="width:35%;">Actions</th>
-                                            </tr>
-                                        </thead>
-
-                                        <tbody class="font-size-lg">
-
-                                            <tr class="odd">
-                                                <td class="dtr-control sorting_1" tabindex="0"></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-danger btn-sm  text-white">Inactive</a>
-                                                </td>
-                                            </tr>
-                                            <tr class="even">
-                                                <td class="dtr-control sorting_1" tabindex="0"></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td><a href="./master_user_show.php" class="btn btn-primary btn-sm text-white">Show</a>
-                                                    <a href="./master_edit_user.php" class="btn btn-primary btn-sm text-white">Edit</a>
-                                                    <a href="" class="btn btn-primary btn-sm text-white">Send Reset Password</a>
-                                                    <a href="" class="btn btn-success btn-sm text-white">Active</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-
-                                    </table>
-                                </div>
+                                    <div class="form-group col">
+                                        <input type="submit" class="btn btn-primary"/>
+                                    </div>
+                                </form>
                             </div>
                         </div>
 

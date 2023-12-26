@@ -80,8 +80,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                     ePay Loan.</span>
                             </div>
                             <!--end::Title-->
-                            <div class="p-3 mb-2 bg-success text-black font-size-h3">Enter your Email and instructions will be sent
-                            to you!</div>
+                            <!-- <div class="p-3 mb-2 bg-success text-black font-size-h3">Enter your Email and instructions will be sent
+                            to you!</div> -->
 
                             <!--begin::Form group-->
                             <div class="form-group" style="padding-top:10%;">
