@@ -144,8 +144,9 @@
                                         <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_credit_product.php"><span class="menu-text">Credit Products</span></a></li>
                                         <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./company_settings.php"><span class="menu-text">Company Setting</span></a></li>
                                         <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_integration.php"><span class="menu-text">Integration</span></a></li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_decision_rules.php"><span class="menu-text">Decision Rules</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_fees.php"><span class="menu-text">Fees</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./master_client_notification.php"><span class="menu-text">Cliet Notifications</span></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -168,7 +169,10 @@
                                     <i class="menu-arrow"></i>
                                     <ul class="menu-subnav">
 
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
+                                    <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./report_payment.php"><span class="menu-text">Payments</span></a></li>
+                                    <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./report_collection.php"><span class="menu-text">Collections</span></a></li>
+                                    <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./report_write_off.php"><span class="menu-text">Write Off</span></a></li>
+                                    <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./report_loan.php"><span class="menu-text">Loans</span></a></li>
                                         <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
                                         <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
                                         <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>

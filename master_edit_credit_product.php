@@ -240,13 +240,36 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="form-group col">
                                         <label class="font-size-h6 col-form-label">Fees</label>
-                                        <select class="form-control font-size-h6" id="fees">
-                                            <option>NSF</option>
-                                            <option>Repayment Fee</option>
-                                            <option>Late fee 5%</option>
-                                            <option>Defer Fee</option>
-                                            <option>Administration Fee</option>
-                                        </select>
+                                       
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-3">
+                                            <span class="switch switch-sm switch-primary switch-icon switch-success">
+                                                <label>
+                                                    <input type="checkbox" checked="checked" name="select" />
+                                                    <span></span>
+                                                    
+                                                </label>
+                                                Allow Rollover
+                                            </span>
+                                        </div>
+
+                                        <div class="form-group col-3">
+                                                <label class="font-size-h6 col-form-label">Max allowed rollovers per loan</label>
+                                                <input type="number" id="max_term" class="form-control" placeholder="" />
+
+                                            </div>
+
+                                            <div class="form-group col-3">
+                                                <label class="font-size-h6 col-form-label">Buffer Period</label>
+                                                <input type="number" id="max_term" class="form-control" placeholder="" />
+
+                                            </div>
+                                            <div class="form-group col-3">
+                                                <label class="font-size-h6 col-form-label">Max Term</label>
+                                                <input type="number" id="max_term" class="form-control" placeholder="" />
+
+                                            </div>
                                     </div>
 
                                     <div class="row">

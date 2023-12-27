@@ -69,7 +69,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!--end::Header-->
 
                 <!--begin::Content-->
-                <div class="d-flex flex-column flex-column-fluid" id="kt_content">
+                <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
                     <!--begin::Subheader-->
                     <?php include('subheader.php') ?>
                     <!--end::Subheader-->
@@ -80,601 +80,96 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="container-fluid dashboard">
 
                             <div class="example-preview">
-
-                                <div class="tab-content p-0" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="pdv" role="tabpanel" aria-labelledby="home-tab">
-
-
-                                        <div class="row">
-
-                                            <div class="col-2">
-                                                <!--begin::Stats Widget 4-->
-                                                <div class="card card-custom card-stretch gutter-b">
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h4 mb-2 text-hover-primary">Under Review</a>
-
-                                                        </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/Design/Pen-tool-vector.svg" alt="" class="align-self-end h-30px" />
-
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <span class="font-weight-bold text-muted  font-size-h4">0</span>
-
-                                                        </div>
-                                                    </div>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Name</label>
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="Name" />
                                                 </div>
-                                            </div>
-                                            <div class="col-2">
-                                                <!--begin::Stats Widget 4-->
-                                                <div class="card card-custom card-stretch gutter-b">
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h4 mb-2 text-hover-primary">Approved</a>
-
-                                                        </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/Code/Done-circle.svg" alt="" class="align-self-end h-30px filter-green" />
-
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <span class="font-weight-bold text-muted  font-size-h4">0</span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-2">
-                                                <!--begin::Stats Widget 4-->
-                                                <div class="card card-custom card-stretch gutter-b">
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h4 mb-2 text-hover-primary">Pending</a>
-
-                                                        </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/Code/Warning-1-circle.svg" alt="" class="align-self-end h-30px" />
-
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <span class="font-weight-bold text-muted  font-size-h4">0</span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-2">
-                                                <!--begin::Stats Widget 4-->
-                                                <div class="card card-custom card-stretch gutter-b">
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h4 mb-2 text-hover-primary">Signature</a>
-
-                                                        </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/General/Clipboard.svg" alt="" class="align-self-end h-30px" />
-
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <span class="font-weight-bold text-muted  font-size-h4">0</span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-2">
-                                                <!--begin::Stats Widget 4-->
-                                                <div class="card card-custom card-stretch gutter-b">
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h4 mb-2 text-hover-primary">Declined</a>
-
-                                                        </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/Navigation/Minus.svg" alt="" class="align-self-end h-30px" />
-
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <span class="font-weight-bold text-muted  font-size-h4">0</span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-2">
-                                                <!--begin::Stats Widget 4-->
-                                                <div class="card card-custom card-stretch gutter-b">
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h4 mb-2 text-hover-primary">Cancelled</a>
-
-                                                        </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/Code/Error-circle.svg" alt="" class="align-self-end h-30px" />
-
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
-                                                            <span class="font-weight-bold text-muted  font-size-h4">0</span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--begin::Row-->
-
-                                            <!--end::Row-->
-                                            <!--end::Dashboard-->
-                                        </div>
-
-
-
-                                        <div class="row">
-
-
-
-
-
-
-
-                                        </div>
-                                        <div class="card card-custom">
-                                            <div class="card-header flex-wrap border-0 pt-6 pb-0">
-                                                <div class="card-title">
-                                                    <h3 class="card-label">
-                                                    </h3>
-                                                </div>
-                                                <div class="card-toolbar">
-                                                    <!--begin::Dropdown-->
-                                                    <div class="dropdown dropdown-inline mr-2">
-
-
-                                                        <!--begin::Dropdown Menu-->
-                                                        <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
-                                                            <!--begin::Navigation-->
-                                                            <ul class="navi flex-column navi-hover py-2">
-                                                                <li class="navi-header font-weight-bolder text-uppercase font-size-sm text-primary pb-2">
-                                                                    Choose an option:
-                                                                </li>
-                                                                <li class="navi-item">
-                                                                    <a href="#" class="navi-link">
-                                                                        <span class="navi-icon"><i class="la la-print"></i></span>
-                                                                        <span class="navi-text">Print</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="navi-item">
-                                                                    <a href="#" class="navi-link">
-                                                                        <span class="navi-icon"><i class="la la-copy"></i></span>
-                                                                        <span class="navi-text">Copy</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="navi-item">
-                                                                    <a href="#" class="navi-link">
-                                                                        <span class="navi-icon"><i class="la la-file-excel-o"></i></span>
-                                                                        <span class="navi-text">Excel</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="navi-item">
-                                                                    <a href="#" class="navi-link">
-                                                                        <span class="navi-icon"><i class="la la-file-text-o"></i></span>
-                                                                        <span class="navi-text">CSV</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="navi-item">
-                                                                    <a href="#" class="navi-link">
-                                                                        <span class="navi-icon"><i class="la la-file-pdf-o"></i></span>
-                                                                        <span class="navi-text">PDF</span>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                            <!--end::Navigation-->
-                                                        </div>
-                                                        <!--end::Dropdown Menu-->
-                                                    </div>
-                                                    <!--end::Dropdown-->
-
-                                                    <!--begin::Button-->
-                                                    <a href="#" class="font-weight-bolder">
-                                                        <span class="font-size-h5">Clear Filter</span>
-                                                    </a>
-                                                    <!--end::Button-->
-                                                </div>
-                                            </div>
-                                            <div class="modal fade" id="assignToPop" tabindex="-1" role="dialog" aria-labelledby="exampleModalSizeSm" aria-hidden="true">
-                                                <div class="modal-dialog modal-lg" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLabel">Assign Application</h5>
-                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                <i aria-hidden="true" class="ki ki-close"></i>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <div class="row">
-                                                                <div class="col-12">
-                                                                    <div class="form-group">
-                                                                        <select class="form-control font-size-h5" id="exampleSelect1">
-                                                                            <option>LMS Admin LMS Admin</option>
-                                                                            <option>Doug Tanner</option>
-                                                                            <option>Emma Chille</option>
-                                                                            <option>Gaurang Patel</option>
-                                                                        </select>
-                                                                    </div>
-                                                                    <div class="form-group">
-                                                                        <input type="submit" class="btn btn-primary float-right" />
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <div class="row">
-
-                                                    <div class="col-8">
-                                                        <div class="row no-gutters">
-                                                            <div class="col-2">
-
-                                                                <a data-toggle="modal" data-target="#fundModel" class="btn btn-light-primary px-6 font-weight-bold">
-                                                                    Fund
-                                                                </a>
-                                                                <br />
-                                                                <a href="#assignToPop" data-toggle="modal" class="btn btn-light-primary px-6 font-weight-bold font-size-base">
-                                                                    Assign To
-                                                                </a>
-
-                                                            </div>
-
-
-                                                            <div class="col-1">
-                                                                <div class="form-group">
-                                                                    <select class="form-control font-weight-bold font-size-base form-control-sm border-2" id="exampleSelect1">
-                                                                        <option>Filter By Agent</option>
-                                                                        <option>LMS Admin</option>
-                                                                        <option>Doug</option>
-                                                                        <option>Emma</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-2">
-                                                            <div class="form-group">
-                                                                    <select class="form-control font-weight-bold font-size-base form-control-sm" id="exampleSelect1">
-                                                                    <option value="">Filter By LeadSource</option>
-                                                                        <option value="1">Loan Application Form</option>
-                                                                        <option value="2">Credit Sense</option>
-                                                                    </select>
-                                                                </div>
-                                                              
-                                                            </div>
-                                                            <div class="col-1">
-                                                            <div class="form-group">
-                                                                    <select class="form-control font-weight-bold font-size-base form-control-sm" id="exampleSelect1">
-                                                                    <option value="">Filter By Status</option>
-                                                                        <option value="1">Pending</option>
-                                                                        <option value="2">Under Review</option>
-                                                                        <option value="3">Declined</option>
-                                                                        <option value="4">Signature</option>
-                                                                        <option value="5">Approved</option>
-                                                                        <option value="6">Cancelled</option>
-                                                                        <option value="7">Expired</option>
-                                                                    </select>
-                                                                </div>
-                                                              
-                                                            </div>
-                                                        
-
-                                                            <div class="col-2">
-
-                                                            <div class="form-group">
-                                                                <input type="date" class="form-control form-control-sm" placeholder="Select Date"/>
-                                                            </div>
-
-                                                               
-                                                            </div>
-                                                            <div class="col-2">
-
-                                                            <div class="form-group">
-                                                                <input type="date" class="form-control form-control-sm" placeholder="Select Date"/>
-                                                            </div>
-
-                                                               
-                                                            </div>
-                                                            <div class="col-2">
-
-                                                            <div class="form-group">
-                                                                <input type="date" class="form-control form-control-sm" placeholder="Select Date"/>
-                                                            </div>
-
-                                                               
-                                                            </div>
-
-                                                            
-
-
-
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-1">
-                                                        <div class="form-group">
-                                                            <input type="checkbox" checked="checked" name="remember_me" />
-                                                            <span class="text-muted font-weight-bold font-size-h6">Is Signed</span>
-
-                                                        </div>
-
-
-                                                    </div>
-                                                    <div class="col-1">
-
-                                                        <a href="#" class="btn btn-light-primary px-6 font-weight-bold">
-                                                            Export
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-2">
-
-                                                        <a href="./new_application.php" class="btn btn-light-primary px-6 font-weight-bold font-size-h5">
-                                                            + New Loan
-                                                            <br /> Application
-                                                        </a>
-                                                    </div>
-                                                </div>
-
-                                                <!--begin: Search Form-->
-                                                <!--begin::Search Form-->
-
-
-
-
-
-
-
-                                                <!--begin::Dashboard-->
-                                                <!--begin::Row-->
-
-                                                <!--end::Entry-->
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12 col-md-9">
-                                                    <div class="dataTables_length text-muted" id="kt_datatable_length"><label>Show <select name="kt_datatable_length" aria-controls="kt_datatable" class="custom-select custom-select-sm form-control form-control-sm">
-                                                                <option value="10">10</option>
-                                                                <option value="25">25</option>
-                                                                <option value="50">50</option>
-                                                                <option value="100">100</option>
-                                                            </select> entries</label></div>
-                                                </div>
-                                                <div class="col-sm-12 col-md-3">
-                                                    <div id="kt_datatable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="kt_datatable"></label></div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-12">
-                                                    <table class="table table-separate table-head-custom table-checkable dataTable no-footer dtr-inline collapsed" id="kt_datatable" role="grid" aria-describedby="kt_datatable_info" style="width: 100%;">
-                                                        <thead>
-                                                            <tr role="row">
-                                                                <th class="sorting sorting_asc" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 11%;" aria-sort="ascending" aria-label="Record ID: activate to sort column descending">ID</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 11%;" aria-label="Order ID: activate to sort column ascending">Customer</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 11%;" aria-label="Country: activate to sort column ascending">Product</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 11%;" aria-label="Ship City: activate to sort column ascending">Status</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 9%;" aria-label="Ship Address: activate to sort column ascending">IBV</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 9%;" aria-label="Company Agent: activate to sort column ascending">Amount</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 9%;" aria-label="Company Name: activate to sort column ascending">Agent</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 11%;" aria-label="Ship Date: activate to sort column ascending">Date Applied</th>
-                                                                <th class="sorting" tabindex="0" aria-controls="kt_datatable" rowspan="1" colspan="1" style="width: 17%;" aria-label="Action: activate to sort column ascending">Action</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td>
-                                                                    <a data-toggle="modal" data-target="#exampleWarning"><span class="con-xs la la-warning  font-size-h3 text-dark" /></a>
-                                                                    <div class="modal fade" id="exampleWarning" tabindex="-1" role="dialog" aria-labelledby="exampleModalSizeSm" aria-hidden="true">
-                                                                        <div class="modal-dialog modal-lg" role="document">
-                                                                            <div class="modal-content">
-                                                                                <div class="modal-header">
-                                                                                    <h5 class="modal-title" id="exampleModalLabel">Warning - Check customer's info</h5>
-                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                        <i aria-hidden="true" class="ki ki-close"></i>
-                                                                                    </button>
-                                                                                </div>
-                                                                                <div class="modal-body">
-                                                                                    <div class="row">
-                                                                                        <div class="col-7 font-size-base font-weight-bold">
-                                                                                            <span> Customer address match</span>
-                                                                                            <br />
-                                                                                            <span>Employer Name</span>
-
-                                                                                        </div>
-
-
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="modal fade" id="fundModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalSizeSm" aria-hidden="true">
-                                                                        <div class="modal-dialog modal-lg" role="document">
-                                                                            <div class="modal-content">
-                                                                                <div class="modal-header">
-                                                                                    <h5 class="modal-title" id="exampleModalLabel">Select Payment Method</h5>
-                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                        <i aria-hidden="true" class="ki ki-close"></i>
-                                                                                    </button>
-                                                                                </div>
-                                                                                <div class="modal-body">
-                                                                                    <div class="row">
-                                                                                        <div class="col-12 font-size-h6 font-weight-bold">
-                                                                                            <form>
-                                                                                                <div class="form-check">
-                                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                                                                        EFT
-                                                                                                    </label>
-                                                                                                </div>
-                                                                                                <div class="form-check mt-5">
-                                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                                                                    <label class="form-check-label" for="flexRadioDefault2">
-                                                                                                        Interac
-                                                                                                    </label>
-                                                                                                </div>
-                                                                                                <div class="form-check mt-5">
-                                                                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                                                                    <label class="form-check-label" for="flexRadioDefault2">
-                                                                                                        Cash
-                                                                                                    </label>
-                                                                                                </div>
-                                                                                                <div class="mt-5 form-group">
-                                                                                                    <input type="submit" class="btn btn-primary float-right" />
-                                                                                                </div>
-                                                                                            </form>
-
-
-                                                                                        </div>
-
-
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <span class="con-xs la la-eye font-size-h3 text-dark" />
-                                                                    <a href="./Edit_loan_application.php"> <span class="con-xs la la-pen  font-size-h3 text-dark" /></a>
-                                                                    <a data-toggle="modal" data-target="#exampleContactCustomer"><span class="con-xs la la-envelope-open font-size-h3 text-dark" /></a>
-                                                                    <div class="modal fade" id="exampleContactCustomer" tabindex="-1" role="dialog" aria-labelledby="exampleModalSizeSm" aria-hidden="true">
-                                                                        <div class="modal-dialog modal-lg" role="document">
-                                                                            <div class="modal-content">
-                                                                                <div class="modal-header">
-                                                                                    <h5 class="modal-title" id="exampleModalLabel">Contact Customer</h5>
-                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                        <i aria-hidden="true" class="ki ki-close"></i>
-                                                                                    </button>
-                                                                                </div>
-                                                                                <div class="modal-body">
-                                                                                    <div>
-                                                                                        <div class="font-size-h5 text-dark">Subject</div>
-                                                                                        <br />
-
-                                                                                        <div>
-                                                                                            <input class="form-control font-size-h6" type="text">
-
-                                                                                        </div>
-                                                                                        <br />
-                                                                                        <div class="font-size-h5 text-dark">Email Body</div>
-                                                                                        <br />
-                                                                                        <div class="row">
-                                                                                            <div class="col-10"></div>
-                                                                                            <div class="col-2">
-                                                                                                <input type="submit" value="Submit" class="form-control btn-primary" />
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </div>
-
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                </div>
-                                                <span class="flaticon-interface-2 font-size-h3 text-dark" />
-                                                <span class="fas fa-minus-circle font-size-h3 text-dark" />
-                                                <a id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="true">
-                                                    <span class="ki ki-more-ver font-size-h3 text-muted" />
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                    <a class="dropdown-item font-size-h6 text-dark" href="#">Deactive</a>
-                                                    <a class="dropdown-item font-size-h6 text-dark" href="#">Block</a>
-                                                </div>
-                                                </td>
-                                                </tr>
-                                                </tbody>
-
-
-
-                                                </table>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-sm-12 col-md-8">
-                                                <div class="dataTables_info" id="kt_datatable_info" role="status" aria-live="polite"><span class="text-muted">Showing 1 to 10 of 50 entries</span></div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-4">
-                                                <div class="dataTables_paginate paging_full_numbers" id="kt_datatable_paginate">
-                                                    <ul class="pagination">
-                                                        <li class="paginate_button page-item first disabled" id="kt_datatable_first"><a href="#" aria-controls="kt_datatable" data-dt-idx="0" tabindex="0" class="page-link"><i class="ki ki-double-arrow-back"></i></a></li>
-                                                        <li class="paginate_button page-item previous disabled" id="kt_datatable_previous"><a href="#" aria-controls="kt_datatable" data-dt-idx="1" tabindex="0" class="page-link"><i class="ki ki-arrow-back"></i></a></li>
-                                                        <li class="paginate_button page-item active"><a href="#" aria-controls="kt_datatable" data-dt-idx="2" tabindex="0" class="page-link">1</a></li>
-                                                        <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="3" tabindex="0" class="page-link">2</a></li>
-                                                        <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="4" tabindex="0" class="page-link">3</a></li>
-                                                        <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="5" tabindex="0" class="page-link">4</a></li>
-                                                        <li class="paginate_button page-item "><a href="#" aria-controls="kt_datatable" data-dt-idx="6" tabindex="0" class="page-link">5</a></li>
-                                                        <li class="paginate_button page-item next" id="kt_datatable_next"><a href="#" aria-controls="kt_datatable" data-dt-idx="7" tabindex="0" class="page-link"><i class="ki ki-arrow-next"></i></a></li>
-                                                        <li class="paginate_button page-item last" id="kt_datatable_last"><a href="#" aria-controls="kt_datatable" data-dt-idx="8" tabindex="0" class="page-link"><i class="ki ki-double-arrow-next"></i></a></li>
-                                                    </ul>
+                                        <div class="col-5">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Alias</label>
+                                                <div>
+                                                    <input type="text" class="form-control" placeholder="Alias" />
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <label class="font-size-h6 col-form-label"></label>
+                                            <span class="switch switch-outline switch-primary switch-sm">
+                                                <label>
+                                                    <input type="checkbox" checked="checked" name="select" />
+                                                    <span></span>
+
+                                                </label>
+                                                Active
+                                            </span>
                                         </div>
 
                                     </div>
-                                </div>
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Description</label>
+                                                <div>
+                                                    <textarea class="form-control border-1" rows="3" placeholder="Description"></textarea>
 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Value</label>
+                                                <div>
+                                                    <input type="number" class="form-control" placeholder="Value" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group col">
+                                                <label class="font-size-h6 col-form-label">Decision</label>
+                                                <div>
+                                                    <select class="form-control" id="exampleSelect1">
+                                                        <option class="font-size-h6">declined</option>
+                                                        <option class="font-size-h6">pending</option>
 
+                                                    </select>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col">
+                                        <input type="submit" class="btn btn-primary" />
+                                    </div>
+                                </form>
                             </div>
-
-
-
-                            <!--begin::Footer-->
-                            <!--end::Footer-->
-                            <!--end::Wrapper-->
                         </div>
 
 
-                        <!--end::Page-->
+                        <!--begin::Footer-->
+                        <!--end::Footer-->
+                        <!--end::Wrapper-->
                     </div>
 
+
+                    <!--end::Page-->
                 </div>
+                <?php include('footer.php') ?>
 
 
-            </div><?php include('footer.php') ?>
-
+            </div>
 
         </div>
 
+    </div>
     </div>
     <!--end::Main-->
 
