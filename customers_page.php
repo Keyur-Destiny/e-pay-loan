@@ -91,19 +91,19 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <!--begin::Stats Widget 4-->
                                                 <div class="card card-custom card-stretch gutter-b">
                                                     <div class="row">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h6 mb-2 text-hover-primary">Customers</a>
+                                                        <div class="col-9 mt-5 text-center">
+                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-base mb-2 text-hover-primary">Customers</a>
 
 
                                                         </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/General/User.svg" alt="" class="align-self-end h-35px filter-green" />
+                                                        <div class="col-3 mt-5">
+                                                            <img src="assets/media/svg/icons/General/User.svg" alt="" class="align-self-end h-25px filter-green" />
 
 
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">
-                                                        <div class="col-9">
+                                                        <div class="col-9 text-left ml-15">
                                                             <h3 class="font-weight-bold text-muted  font-size-h3">4</span>
 
                                                         </div>
@@ -114,43 +114,43 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <!--begin::Stats Widget 4-->
                                                 <div class="card card-custom card-stretch gutter-b">
                                                     <div class="row">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h6 mb-2 text-hover-primary">Verified</a>
+                                                        <div class="col-9 mt-5 text-center">
+                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-base mb-2 text-hover-primary">Verified</a>
 
 
                                                         </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/Communication/Shield-user.svg" alt="" class="align-self-end h-35px filter-green" />
+                                                        <div class="col-3 mt-5">
+                                                            <img src="assets/media/svg/icons/Communication/Shield-user.svg" alt="" class="align-self-end h-25px filter-green" />
 
 
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">
-                                                        <div class="col-9">
+                                                        <div class="col-9 text-left ml-15">
                                                             <h3 class="font-weight-bold text-muted  font-size-h3">4</span>
 
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-2">
+                                            <div class="col-3">
                                                 <!--begin::Stats Widget 4-->
                                                 <div class="card card-custom card-stretch gutter-b">
                                                     <div class="row">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h6 mb-2 pl-5 pr-5 text-hover-primary">Duplicate</a>
+                                                        <div class="col-9 mt-5 text-center">
+                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-base mb-2 pl-5 pr-5 text-hover-primary">Duplicate</a>
 
 
                                                         </div>
-                                                        <div class="col-3">
+                                                        <div class="col-3 mt-5">
                                                             <span class="icon-2x flaticon-users-1 align-self-end" />
 
 
 
                                                         </div>
                                                     </div>
-                                                    <div class="row mt-5">
-                                                        <div class="col-9">
+                                                    <div class="row mt-2">
+                                                        <div class="col-9 text-left ml-15">
                                                             <h3 class="font-weight-bold text-muted  font-size-h3">4</span>
 
                                                         </div>
@@ -158,24 +158,24 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
 
-                                            <div class="col-4">
+                                            <div class="col-3">
                                                 <!--begin::Stats Widget 4-->
                                                 <div class="card card-custom card-stretch gutter-b">
                                                     <div class="row">
-                                                        <div class="col-9">
-                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-h6 mb-2 pl-5 pr-5 text-hover-primary">Verification Pending</a>
+                                                        <div class="col-9 mt-5 text-center">
+                                                            <a href="#" class="card-title font-weight-bolder text-dark-75 font-size-base mb-2 text-hover-primary">Verification Pending</a>
 
 
                                                         </div>
-                                                        <div class="col-3">
-                                                            <img src="assets/media/svg/icons/Communication/Shield-user.svg" alt="" class="align-self-end h-35px filter-green" />
+                                                        <div class="col-3 mt-5">
+                                                            <img src="assets/media/svg/icons/Communication/Shield-user.svg" alt="" class="align-self-end h-25px filter-green" />
 
 
 
                                                         </div>
                                                     </div>
                                                     <div class="row mt-5">
-                                                        <div class="col-9">
+                                                        <div class="col-9 text-left ml-15">
                                                             <h3 class="font-weight-bold text-muted  font-size-h3">4</span>
 
                                                         </div>

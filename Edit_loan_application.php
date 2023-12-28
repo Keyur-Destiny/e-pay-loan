@@ -79,8 +79,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                             <div class="example-preview">
                                 <form class="form">
-                                    <div class="card-body">
-                                        <div>
+                                    <div class="card">
+                                        <div class="card-body">
                                             <div class="form-group row">
                                                 <label class="col-lg-3 font-size-h5 col-form-label">Select Product</label>
                                                 <div class="col-lg-8">

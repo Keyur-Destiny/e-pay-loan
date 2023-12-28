@@ -93,11 +93,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="card-body d-flex py-0">
                                                         <div class="d-flex flex-column">
                                                             <div class="row">
-                                                                <div class="col-10">
+                                                                <div class="col-10 mt-4">
                                                                     <a href="#" class="card-title font-weight-bolder text-muted font-size-base mb-2 text-hover-primary">Completed Payments</a>
                                                                 </div>
-                                                                <div class="col-2">
-                                                                    <img src="assets/media/svg/icons/Code/Done-circle.svg" alt="" class="h-35px filter-green" />
+                                                                <div class="col-2 mt-4">
+                                                                    <img src="assets/media/svg/icons/Code/Done-circle.svg" alt="" class="h-25px filter-green" />
                                                                 </div>
                                                             </div>
                                                             <h3 class="font-weight-bold text-dark  font-size-h3">0</span>
@@ -114,11 +114,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="card-body d-flex align-items-center py-0">
                                                         <div class="d-flex flex-column">
                                                             <div class="row">
-                                                                <div class="col-10">
+                                                                <div class="col-10 mt-4">
                                                                     <a href="#" class="card-title font-weight-bolder text-muted font-size-base mb-2 text-hover-primary">Failed Payments</a>
                                                                 </div>
-                                                                <div class="col-2">
-                                                                    <img src="assets/media/svg/icons/General/alert-hexagon.svg" alt="" class="align-self-end h-35px filter-green" />
+                                                                <div class="col-2 mt-4">
+                                                                    <img src="assets/media/svg/icons/General/alert-hexagon.svg" alt="" class="align-self-end h-25px filter-green" />
                                                                 </div>
                                                             </div>
 
@@ -136,11 +136,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="card-body d-flex align-items-center py-0">
                                                         <div class="d-flex flex-column">
                                                             <div class="row">
-                                                                <div class="col-10">
+                                                                <div class="col-10 mt-4">
                                                                     <a href="#" class="card-title font-weight-bolder text-muted font-size-base mb-2 text-hover-primary">Cancelled Payments</a>
                                                                 </div>
-                                                                <div class="col-2">
-                                                                    <img src="assets/media/svg/icons/Code/Error-circle.svg" alt="" class="align-self-end h-35px" />
+                                                                <div class="col-2 mt-4">
+                                                                    <img src="assets/media/svg/icons/Code/Error-circle.svg" alt="" class="align-self-end h-25px" />
                                                                 </div>
                                                             </div>
 
@@ -158,11 +158,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="card-body d-flex align-items-center py-0">
                                                         <div class="d-flex flex-column">
                                                             <div class="row">
-                                                                <div class="col-10">
+                                                                <div class="col-10 mt-4">
                                                                     <a href="#" class="card-title font-weight-bolder text-muted font-size-base mb-2 pl-5 pr-5 text-hover-primary">Portfolio</a>
                                                                 </div>
-                                                                <div class="col-2">
-                                                                    <img src="assets/media/svg/icons/General/hand-holding.svg" alt="" class="h-35px" />
+                                                                <div class="col-2 mt-4">
+                                                                    <img src="assets/media/svg/icons/General/hand-holding.svg" alt="" class="h-25px" />
                                                                 </div>
                                                             </div>
 
@@ -482,9 +482,15 @@ License: You must have a valid license purchased only from themeforest(the above
                     </div>
                     
                 </div>
-                <?php include('footer.php') ?>
+                
 
             </div>
+            <?php include('footer.php') ?>
+            </div>
+            
+        </div>
+       
+    </div>
                         <!--end::Main-->
 
 

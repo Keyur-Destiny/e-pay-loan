@@ -77,47 +77,10 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Entry-->
                      <div class="content  d-flex flex-column flex-column-fluid" id="kt_content">
 
-                <div class="subheader py-2 py-lg-4  subheader-solid " id="kt_subheader">
-                    <div class=" container-fluid  d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
-                        <!--begin::Info-->
-                        <div class="d-flex align-items-center flex-wrap mr-2">
-
-                            <!--begin::Page Title-->
-                            <h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">
-                                Loan Application </h5>
-                            <!--end::Page Title-->
-
-                            <!--begin::Actions-->
-
-
-                            <!--end::Actions-->
-                        </div>
-                        <!--end::Info-->
-
-                        <!--begin::Toolbar-->
-                        <div class="d-flex align-items-center">
-
-                            <!--end::Actions-->
-
-                            <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
-                                <li class="breadcrumb-item">
-                                    <a href="" class="text-muted">
-                                        Underwriting </a>
-                                </li>
-                                <li class="breadcrumb-item">
-                                    <a href="" class="text-muted">
-                                        Loan Application Apply </a>
-                                </li>
-                            </ul>
-
-                            <!--end::Dropdowns-->
-                        </div>
-                        <!--end::Toolbar-->
-                    </div>
-                </div>
+           
 
                 <div>
-                    <div class="card card-custom">
+                    <div class="card">
                     
                         <!--begin::Form-->
                         <form class="form">
@@ -127,7 +90,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <p class="font-size-h3">
                                         Select a customer you want to apply a loan.
                                     </p>
-                                <select class="form-control form-control-solid font-size-h3" required="required">
+                                <select class="form-control form-control-solid font-size-h5" required="required">
                                     <option value="" disabled selected>Select Customer</option>
                                 <option value="AF">Christos S - spiliotopoulos.xristos@gmail.com</option>
 
@@ -135,7 +98,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </select>
                                 </div>
                                 <div class="col-9 mt-17">
-                                    <a href="./new_app_personal.php" class="btn btn-light-primary px-7 font-weight-bold font-size-h2">
+                                    <a href="./new_app_personal.php" class="btn btn-light-primary px-7 font-weight-bold font-size-h5">
                                         Proceed <img src="assets/media/svg/icons/Navigation/Arrow-right.svg"/>
                                     </a>
                                 </div>

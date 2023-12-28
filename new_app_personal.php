@@ -76,13 +76,13 @@ License: You must have a valid license purchased only from themeforest(the above
 
                     <!--begin::Entry-->
                     <div>
-                    <div class="card card-custom">
+                    <div class="">
                         
                     
                         <!--begin::Form-->
                         <form class="form" action="./show_loan_application.php">
                             <div class="form-group">
-                                <div class="card card-custom card-sticky" id="kt_page_sticky_card">
+                                <div class="card card-body">
                                     
                                     <div class="card-body">
                                         <!--begin::Form-->
@@ -99,7 +99,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                            
                                                         </div>
                                                         <div class="form-group column">
-                                                            <label class="col-3 font-size-h4 text-muted">1. Select Loan Type</label>
+                                                            <label class="col-4 font-size-h4 text-muted">1. Select Loan Type</label>
                                                             <div class="col-10">
                                                                 <select class="form-control form-control-solid font-size-h4">
                                                                     <option value="AF">Flat Interest Bi-weekly</option>

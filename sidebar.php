@@ -198,17 +198,18 @@
                                 <div class="menu-submenu ">
                                     <i class="menu-arrow"></i>
                                     <ul class="menu-subnav">
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./incomplete_loan_application.php"><span class="menu-text">Incomplete loan application</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./good_customer.php"><span class="menu-text">Good customers</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./reloan_campeign.php"><span class="menu-text">Reloan campeign</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./birthday_loan_campeign.php"><span class="menu-text">Birthday campeign</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./unverified_customer_campeign.php"><span class="menu-text">Unverified customer</span></a></li>
+                                        <li class="menu-item" aria-haspopup="true"><a class="menu-link" href="./signature_reminder.php"><span class="menu-text">Signature Reminder</span></a></li>
 
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
-                                        <li class="menu-item" aria-haspopup="true"><span class="menu-link"><span class="menu-text">Text 1</span></span></li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="menu-item " aria-haspopup="true">
-                                <a target="_blank" href="#" class="menu-link ">
+                                <a target="_blank" href="./support.php" class="menu-link ">
                                     <span class="svg-icon menu-icon">
                                         <!--begin::Svg Icon | path:assets/media/svg/icons/Home/Library.svg-->
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
